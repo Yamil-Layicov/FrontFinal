@@ -1,0 +1,455 @@
+@media (max-width: 576px) {
+header{
+    .header-text{
+        text-align: center;
+        background-color: #233A95; 
+        color: white;
+        font-size: 12px;
+        padding: 5px 20px;
+        span{
+            font-weight: bold;
+        }
+    }
+
+    .header-top{
+        padding: 15px;
+        img{
+            width: 100%;
+        }
+        .logo{
+            width: 20%;
+        }
+        .menu-icon{
+            width: 33%;
+        }
+        .basket{
+            position: relative;
+            width: 33%;
+            span{
+                font-weight: bold;
+            }
+        }
+        .zero{
+            position: absolute;
+            background-color: red;
+            color: white;
+            font-size: 10px;
+            padding: 3px;
+            border-radius: 50%;
+            right: 6px;
+            top: 40px;
+        }
+    }
+
+    img{
+        width: 100%;
+    }
+
+    #menu{
+        overflow-x: scroll;
+        padding: 30px;
+        position: absolute;
+        top: 0;
+        background-color: white;
+        width: 0%;
+        height: 100vh;
+        transition: 0.3s;
+        visibility: hidden;
+        .first{
+            .left{
+                width: 40%;
+            }
+            .right{
+                span{
+                    background-color: rgb(197, 197, 197);
+                    padding: 3px 8px;
+                    border-radius: 100%;
+                    i{
+                        color: white;
+                    }
+                }
+            }
+        }
+        .second{
+            border: 1px solid rgb(200, 200, 200);
+            border-radius: 7px;
+            margin-top: 30px;
+            .left{
+                padding: 5px 10px;
+                small{
+                    color: rgb(175, 175, 175);
+                }
+            }
+            .right{
+                i{
+                    margin-right: 10px;
+                }
+            }
+        }
+        .third{
+            background-color: #2BBEF9;
+            color: white;
+            padding: 15px 10px;
+            border-radius: 7px;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+        .navigation{
+            .icon i{
+               margin-right: 50px;
+            }
+        }
+    }
+
+
+    
+}
+
+#section-one{
+    padding: 10px;
+    small{
+        color: rgb(179, 179, 179);
+    }
+    img{
+        width: 100%;
+    }
+    .img-box-top{
+        border: 1px solid gray;
+        text-align: center;
+        img{
+            width: 70%;
+        }
+    }
+
+    .img-box-main{
+        border: 1px solid gray;
+        border-top: none !important;
+        .img-box-left,.img-box-right{
+            text-align: center;
+            
+        }
+    }
+
+}
+
+#section-second{
+    padding: 10px;
+        .main-box{
+            padding: 20px;
+            border: 2px solid red;
+            .week{
+                font-weight: bold;
+                color: rgb(3, 3, 187);
+            }
+            .oclock{
+                margin: 20px 0;
+                span{
+                    padding: 10px 13px;
+                    background-color: red;
+                    border-radius: 10px;
+                    color: white;
+                    font-weight: bold;
+                }
+            }
+            p{
+                color: gray;
+            }
+            .img-box{
+                position: relative;
+                .precent{
+                    padding: 20px 15px;
+                    background-color: red;
+                    color: white;
+                    position: absolute;
+                    left: 30px;
+                    border-radius: 100%;
+                    font-weight: bold;
+                    font-size: 20px;    
+                }
+            }
+            .price{
+                .old{
+                    color: gray;
+                    font-size: 18px;  
+                    font-weight: bold;  
+                }
+                .new{
+                    color: red;
+                    font-size: 18px;
+                    font-weight: bold;
+                }
+            }
+            p.name{
+                font-size: 20px;
+                margin-top: 10px;
+            }
+            span.kg{
+                color: gray;
+            }
+            span.stock{
+                color: rgb(6, 185, 6);
+                font-size: 15px;
+                font-weight: bold;
+                margin-left: 10px;
+            }
+            i{
+                color: rgb(236, 247, 37);
+            } 
+            .available{
+                text-align: end;
+            }
+            .gradient{
+                background: #f7ff00;  /* fallback for old browsers */
+                 background: -webkit-linear-gradient(to right, #db36a4, #f7ff00);  /* Chrome 10-25, Safari 5.1-6 */
+                  background: linear-gradient(to right, #db36a4, #f7ff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+                  padding: 7px;
+                   border-radius: 20px;
+            }
+
+        }
+}
+
+#section-third{
+    padding: 10px;
+    .main-box{
+        .img-box{
+            border: 1px solid gray;
+            padding: 20px;
+
+            .stock{
+                color: rgb(22, 177, 22);
+                font-weight: bold;
+                font-size: 13px;
+            }
+            i{
+                color: #dde508;
+            }
+            .price{
+                margin-bottom: 20px;
+                .old{
+                    color: gray;
+                    font-weight: bold;
+                    font-size: 17px;
+                }
+                .new{
+                    color: red;
+                    font-weight: bold;
+                    font-size: 17px;
+                }
+    
+            }
+            .btn{
+                background-color: #233A95;
+                color: white;
+                border-radius: 20px;
+                width: 100%;
+                padding: 10px 0;
+            }
+        }
+        }
+}
+
+#section-fourth{
+    padding: 10px;
+    h6{
+        color: red;
+    }
+
+    .up{
+        background-image: url(https://klbtheme.com/bacola/wp-content/uploads/2021/05/bacola-banner-11.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 30px 0;
+        .btn{
+            background-color: #233A95;
+            color: white;
+            border-radius: 20px;
+        }
+    }
+    .down{
+        background-image: url(https://klbtheme.com/bacola/wp-content/uploads/2021/05/bacola-banner-12.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        border-radius: 10px;
+        .btn{
+            background-color: red;
+            color: white;
+            border-radius: 20px;
+        }
+        
+    }
+}
+
+#section-fifth{
+    padding: 10px;
+    small{
+        color: gray;
+    }
+    .right{
+        span{
+            padding: 5px 10px;
+            border: 1px solid gray;
+            border-radius: 20px;
+            color: gray;
+        }
+    }
+}
+
+#section-sixth{
+    position: relative;
+    border: 1px solid rgb(185, 185, 185);
+    padding: 10px;
+    margin: 10px;
+
+    .stock{
+        color: rgb(31, 158, 31);
+        font-weight: bold;
+        font-size: 14px;
+    }
+    i{
+        color: rgb(229, 229, 36);
+    }
+    .price{
+        .old{
+            color: gray;
+            font-weight: bold;
+            font-size: 17px;
+        }
+        .new{
+            color: red;
+            font-weight: bold;
+            font-size: 17px;
+        }
+    }
+    .btn{
+        background-color: rgb(255, 230, 2);
+        width: 100%;
+        border-radius: 20px;
+        margin-top: 10px;
+    }
+    .icons{
+        i{
+            font-size: 20px;
+            color: gray;
+        }
+        .left{
+            border: 1px solid rgb(170, 170, 170);
+            padding: 3px 8px;
+            position: absolute;
+            top: 40%;
+            left: 0;
+
+        }
+        .right{
+            border: 1px solid gray;
+            padding: 3px 8px;
+            position: absolute;
+            right: 0;
+            top: 40%;
+        }
+    }
+}
+
+#section-seventh{
+    padding: 10px;
+    h6{
+        color: rgb(23, 172, 23);
+        font-weight: bold;
+    }
+
+    .up{
+        background-image: url(https://klbtheme.com/bacola/wp-content/uploads/2021/05/bacola-banner-05.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 30px 0;
+        .btn{
+            background-color: rgb(203, 203, 203);
+            color: white;
+            border-radius: 20px;
+        }
+    }
+    .down{
+        background-image: url(https://klbtheme.com/bacola/wp-content/uploads/2021/05/bacola-banner-06.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        border-radius: 10px;
+        .btn{
+            background-color: rgb(203, 203, 203);
+            color: white;
+            border-radius: 20px;
+        }
+        
+    }
+    .down-2{
+        margin-top: 20px;
+        background-image: url(https://klbtheme.com/bacola/wp-content/uploads/2021/05/bacola-banner-10.jpg);
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        border-radius: 10px;
+        .btn{
+            background-color: rgb(203, 203, 203);
+            color: white;
+            border-radius: 20px;
+        }
+    }
+}
+
+footer{
+    margin-top: 20px;
+    .text{
+        background: #233A95;
+        color: white;
+        padding: 20px;
+
+        input{
+            outline: none;
+            border: none;
+        }
+        .input{
+            background-color: white;
+            padding: 5px;
+            i{
+                color: black;
+                font-size: 30px;
+                margin-right: 20px;
+            }
+            .subscribe{
+                background-color: #233A95;
+                color: white;
+                text-align: end;
+                padding: 7px 12px;
+                border-radius: 7px;
+                margin-left: 190px;
+            }
+        }
+    }
+
+    .img{
+        background-image: url(https://klbtheme.com/bacola/wp-content/uploads/2021/04/coupon.png);
+        background-color: #233A95;
+        background-size: cover;
+        background-position: center;
+        padding: 170px 90px;  
+    }
+}
+
+
+
+
+    #comp{
+        display: none;
+    }
+  }
+
+  @media (min-width: 576px){
+      #mobile{
+          display: none;
+      }
+  }

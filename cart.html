@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;600&family=Montserrat:ital,wght@0,100;0,300;0,400;1,200&display=swap" rel="stylesheet">
+    
+         <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+         <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <title>Basket</title>
+    </head>
+<body>
+    <header>
+        <div class="top-header">
+            <span>Due to the <span class="span">COVID 19</span> epidemic, orders may be processed with a slight delay</span>
+        </div>
+        <div class="center-header  d-flex justify-content-between pt-2">
+                <div class="left">
+                    <ul>
+                        <li>About Us</li>
+                        <li>My account</li>
+                        <li>Wishlist</li>
+                        <li>Order Tracking</li>
+                    </ul>
+                </div>
+                <div class="right  d-flex justify-content-between ">
+                    <div class="first">
+                        <i class="fa-solid fa-hand-fist me-2"></i><span>100% Secure delivery without contacting the courier</span>
+                    </div>
+                    <div class="second">
+                        Need help? Call Us: <span> + 0020 500</span>
+                    </div>
+                    <div class="third d-flex justify-content-between">
+                        <div class="dropdown">
+                            <span>English</span>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li>English</li>
+                                    <li>Spanish</li>
+                                    <li>German</li>
+                                </ul>
+                            </div>
+                          </div>
+                          <div class="dropdown">
+                            <span>USD</span>
+                            <div class="dropdown-content">
+                                <ul>
+                                    <li>USD</li>
+                                    <li>INR</li>
+                                    <li>GPB</li>
+                                </ul>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+        </div>
+        <div class="under-header d-flex justify-content-between ">
+            <div class="logo col-lg-2">
+                    <a href="index.html" style="text-decoration: none; color: black;"><img src="./Images/bacola-logo.png" alt=""></a>
+                    <p class="img-text">Online Grocery Shopping Center</p>
+            </div>
+            <div class="d-flex justify-content-between align-items-center col-lg-10">
+                <div class="location d-flex justify-content-between" id="myBtn">
+                    <div class="text">
+                        <small>Your Location</small>
+                    <p>Select a Loaction</p>
+                    </div>
+                    <span><i class="fa-solid fa-angle-down icon"></i></span>
+                <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h5>Choose your Delivery Location</h5>
+                    <small>Enter your address and we will specify the offer for your area.</small>
+                    <div class="input">
+                        <i class="fa-solid fa-magnifying-glass ps-3"></i>
+                        <input type="text" placeholder="serach your area">
+                    </div>
+                    <div class="cities">
+                      <div class="city d-flex justify-content-between align-items-center">
+                          <span>Select a Location</span>
+                          <button>Clear All</button>
+                      </div>
+                      <div class="city d-flex justify-content-between align-items-center">
+                        <span>Baku</span>
+                        <button>Min: $130</button>
+                    </div>
+                    <div class="city d-flex justify-content-between align-items-center">
+                        <span>Baku</span>
+                        <button>Min: $90</button>
+                    </div>
+                    <div class="city d-flex justify-content-between align-items-center">
+                        <span>Baku</span>
+                        <button>Clear All</button>
+                    </div>
+                    <div class="city d-flex justify-content-between align-items-center">
+                        <span>Baku</span>
+                        <button>Clear All</button>
+                    </div>
+                    <div class="city d-flex justify-content-between align-items-center">
+                        <span>Baku</span>
+                        <button>Clear All</button>
+                    </div>
+                    <div class="city d-flex justify-content-between align-items-center">
+                        <span>Baku</span>
+                        <button>Clear All</button>
+                    </div>
+                    <div class="city d-flex justify-content-between align-items-center">
+                        <span>Baku</span>
+                        <button>Clear All</button>
+                    </div>
+                    <div class="city d-flex justify-content-between align-items-center">
+                        <span>Baku</span>
+                        <button>Clear All</button>
+                    </div>
+                    <div class="city d-flex justify-content-between align-items-center">
+                        <span>Baku</span>
+                        <button>Clear All</button>
+                    </div>
+                    <div class="city d-flex justify-content-between align-items-center">
+                        <span>Baku</span>
+                        <button>Clear All</button>
+                    </div>
+                    </div>
+                </div>
+
+                </div>
+
+                </div>
+                <div class="input d-flex justify-content-between align-items-center">
+                    <input type="text" placeholder="Search for products...">
+                    <span><i class="fa-solid fa-magnifying-glass"></i></span>
+                </div>
+                <div class="user-basket">
+                    <span><i class="fa-solid fa-user icon"></i></span>
+                    <span class="span">$0.00</span>
+                    <span><a href="./basket.html" target="_blank"><a href="cart.html"><i class="fa-solid fa-basket-shopping icon_2"></i></a><span id="count" class="zero">0</span></span>
+                </div>
+            </div>
+        </div>
+        <div class="menu-header">
+            <div class="menu d-flex justify-content-between align-items-center">
+                <div class="col-lg-2 left " onclick="category()">
+                    <span><i class="fa-solid fa-bars first"></i></span>
+                    <span>ALL CATEGORIES</span>
+                    <span><i class="fa-solid fa-angle-down second"></i></span>
+                    <small class="d-inline-block">TOTAL 63 PRODUCTS</small>
+                    <div class="categories cate"  id="toggle">
+                        <ul>
+                            <li><i class="fa-brands fa-apple"></i><span>Fruits & Vegetables</span><i class="fa-solid fa-angle-right icon1">
+                                <div class="righta">
+                                    <ul>
+                                        <li><span>Cuts & Sprout</span></li>
+                                        <li><span>Lorem, ipsum dolor.</span></li>
+                                        <li><span>Lorem, ipsum.</span></li>
+                                        <li><span>Lorem, ipsum.</span></li>
+                                        <li><span>Lorem, ipsum.</span></li>
+                                        <li><span>Lorem, ipsum.</span></li>
+                                    </ul>
+                                </div>
+                            </i>
+                            </li>
+                            <li><i class="fa-brands fa-apple"></i><span>Lorem, ipsum dolor.</span></li>
+                            <li><i class="fa-brands fa-apple"></i><span>Lorem, ipsum dolor.</span></li>
+                            <li><i class="fa-brands fa-apple"></i><span>Lorem, ipsum dolor.</span><i class="fa-solid fa-angle-right icon2"></i></li>
+                            <li><i class="fa-brands fa-apple"></i><span>Lorem, ipsum dolor.</span></li>
+                            <li><i class="fa-brands fa-apple"></i><span>Lorem, ipsum dolor.</span></li>
+                            <li><i class="fa-brands fa-apple"></i><span>Lorem, ipsum dolor.</span></li>
+                            <li><i class="fa-brands fa-apple"></i><span>Lorem, ipsum dolor.</span></li>
+                        </ul>
+                        <div class="bottom">
+                            <ul>
+                                <li>Value of Day</li>
+                                <li>Top 100 Offers</li>
+                                <li>New Arrivals</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10 right">
+                    <ul class="d-flex justify-content-between ul">
+                        <li class="home first">HOME <span><i class="fa-solid fa-angle-down ms-2 down"></i></span> 
+                            <div>
+                                <ul>
+                                    <li>Home 1</li>
+                                    <li>Home 2</li>
+                                    <li>Home 3</li>
+                                    <li>Home 4</li>
+                                    <li>Home 5</li>
+                                </ul>
+                            </div>
+                        </li> 
+                        <li class="second">SHOP <span><i class="fa-solid fa-angle-down ms-2 down"></i></span>
+                            <div class="layouts">
+                                <div class="main">
+                                    <p>Shop Lists</p>
+                                    <ul>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                    </ul>
+                                </div>
+                                <div class="main">
+                                    <p>Shop Lists</p>
+                                    <ul>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                    </ul>
+                                </div>
+                                <div class="main">
+                                    <p>Shop Lists</p>
+                                    <ul>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                    </ul>
+                                </div>
+                                <div class="main">
+                                    <p>Shop Lists</p>
+                                    <ul>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                    </ul>
+                                </div>
+                                <div class="main">
+                                    <p>Shop Lists</p>
+                                    <ul>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                        <li>Shop Default</li>
+                                    </ul>
+                                </div>  
+                                <div class="bordera">
+                                </div>
+                                <div class="back">
+                                    
+                                </div>
+                         </div>
+                        </li >
+                        <li class="first"> <span><i class="fa-solid fa-drumstick-bite"></i></span> MEATS&SEAFOOD</li>
+                        <li class="first"><i class="fa-solid fa-cookie"></i>BAKERY</li>
+                        <li class="first"><i class="fa-solid fa-mug-hot"></i>BAVERAGES</li>
+                        <li class="first"><a href="blog.html" style="text-decoration: none; color: black;">BLOG</a></li>
+                        <li class="first"><a href="contact.html" style="text-decoration: none; color: black;">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <section id="main-section" class="d-none">
+        <div class="first">
+            <p>“Angie's Boomchickapop Sweet & Salty Kettle Corn” removed. <a href="index.html">Undo?</a></p>
+        </div>
+        <div class="second">
+            <p>Your cart is currently empty.</p> 
+        </div>
+        <div class="basket-img">
+            <div class="img-box">
+            
+            </div>
+            <div class="img">
+                <img src="./Images/basket.png" alt="">
+            </div>
+        </div>
+        <div class="return-shop">
+            <span><a href="index.html">Return-shop</a></span>
+        </div>
+    </section>
+
+    <section id="section-1"> 
+        <div class="main-basket d-flex justify-content-between">
+            <div class="left">
+                <div class="names d-flex justify-content-between" id="names">
+                    <div class="product">
+                        Product
+                    </div>
+                   <div class="others d-flex justify-content-between">
+                    <div class="price">
+                        Price
+                    </div>
+                    <div class="quantity">
+                        Quantity
+                    </div>
+                    <div class="subtotal">
+                        Subtotal
+                    </div>
+                   </div>
+                </div>
+                <div class="list" id="list">
+                    <!-- added product here-->
+                </div>
+                <div class="under-product d-flex justify-content-between align-items-center" id="under-product">
+                    <div class="coupen-codes  d-flex     justify-content-between">
+                        <div class="coupen-code">
+                        <input type="text" placeholder="Coupen code">
+                        </div>
+                        <div class="apply-coupen">
+                        <button>Apply coupen</button>
+                        </div>
+                    </div>
+                    <div class="update-cart">
+                        <button>Update cart</button>
+                    </div>
+                </div>
+            </div>
+            <div class="right" id="right">
+                <h6>CART TOTALS</h6>
+            <div class="subtotal">
+                Subtotal
+            </div>
+            <div class="total">
+                Total
+            </div>
+            <div class="btn">
+                Proceed to checkout
+            </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+
+
+
+
+
+
+    <footer class="footer-top mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-5 col-12 subscribe-all">
+                    <h5>$20 discount for your first order</h5>
+                    <h1>Join our newsletter and get...</h1>
+                    <p>Join our email subscription now to get updates on promotions and coupons.</p>
+                    <div class="subscribe">
+                        <i class="fa-regular fa-envelope"></i>
+                        <input class="subscribe-email" type="email" placeholder="Your email address">
+                        <input class="subscribe-submit sub" type="submit" value="Subscribe">
+                    </div>
+                </div>
+                <div class="col-lg-7 col-12 subscribe-img">
+                    <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/coupon.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <footer class="footer-everyday ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-3 everday">
+                    <i class="fa-solid fa-cow"></i>
+                    <span>Everyday fresh products</span>
+                </div>
+                <div class="col-lg-3 col-3 everday">
+                    <i class="fa-solid fa-truck"></i>
+                    <span>Free delivery for order over $70</span>
+                </div>
+                <div class="col-lg-3 col-3 everday">
+                    <i class="fa-solid fa-percent"></i>
+                    <span>Daily Mega Discounts</span>
+                </div>
+                <div class="col-lg-3 col-3 everday">
+                    <i class="fa-solid fa-sack-dollar"></i>
+                    <span>Best price on the market</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer-menu">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2">
+                    <h5>FRUIT & VEGETABLES</h5>
+                    <ul>
+                        <li>Fresh Vegetables</li>
+                        <li>Herbs & Seasonings</li>
+                        <li>Fresh Fruits</li>
+                        <li>Cuts & Sprouts</li>
+                        <li>Exotic Fruits & Veggies</li>
+                        <li>Packaged Produce</li>
+                        <li>Party Trays</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h5>BREAKFAST & DAIRY</h5>
+                    <ul>
+                        <li>Milk & Flavoured Milk</li>
+                        <li>Butter and Margarine</li>
+                        <li>Cheese</li>
+                        <li>Eggs Substitutes</li>
+                        <li>Honey</li>
+                        <li>Marmalades</li>
+                        <li>Sour Cream and Dips</li>
+                        <li>Yogurt</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h5>MEAT & SEAFOOD</h5>
+                    <ul>
+                        <li>Breakfast Sausage</li>
+                        <li>Dinner Sausage</li>
+                        <li>Beef</li>
+                        <li>Chicken</li>
+                        <li>Sliced Deli Meat</li>
+                        <li>Shrimp</li>
+                        <li>Wild Caught Fillets</li>
+                        <li>Crab and Shellfish</li>
+                        <li>Farm Raised Fillets</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h5>BEVERAGES</h5>
+                    <ul>
+                        <li>Water</li>
+                        <li>Sparkling Water</li>
+                        <li>Soda & Pop</li>
+                        <li>Coffee</li>
+                        <li>Milk & Plant-Based Milk</li>
+                        <li>Tea & Kombucha</li>
+                        <li>Drink Boxes & Pouches</li>
+                        <li>Craft Beer</li>
+                        <li>Wine</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5>BREADS & BAKERY</h5>
+                    <ul>
+                        <li>Milk & Flavoured Milk</li>
+                        <li>Butter and Margarine</li>
+                        <li>Cheese</li>
+                        <li>Eggs Substitutes</li>
+                        <li>Honey</li>
+                        <li>Marmalades</li>
+                        <li>Sour Cream and Dips</li>
+                        <li>Yogurt</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer-app">
+        <div class="container-fluid">
+            <div class="row align-items-center ">
+                <div class="col-lg-6 col-4 d-flex align-items-center app-left ps-4">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="ps-4">
+                        <h5>070-826-10-26</h5>
+                        <p>Working 8:00 - 22:00</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-8 app-right align-items-center ">
+                    <div class="text-end">
+                        <h5>Download App on Mobile :</h5>
+                        <p>15% discount on your first purchase</p>
+                    </div>
+                    <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/google-play.png" alt="">
+                    <img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/app-store.png" alt="">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer py-3">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-12 footer-top-left">
+                    <p>Copyright 2022 © Bacola WordPress Theme. All rights reserved. Powered by KlbTheme.</p>
+                </div>
+                <div class="col-lg-6 col-12 footer-top-right">
+                    <ul class="d-flex align-items-center footer-top-right">
+                        <li>Privacy Policy</li>
+                        <li>Terms and Conditions</li>
+                        <li>Cookie</li>
+                        <li><img src="https://klbtheme.com/bacola/wp-content/uploads/2021/04/payments.jpg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <footer class="footer-mobile">
+        <div class="container-fluid">
+            <div class="row justify-content-between">
+                <div class="col-2 text-center">
+                    <a href=""><i class="fa-solid fa-store"></i></a>
+                    <p><a href="">Store</a></p>
+                </div>
+                <div class="col-2 text-center">
+                    <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                    <p><a href="">Search</a></p>
+                </div>
+                <div class="col-2 text-center">
+                    <a href=""><i class="fa-solid fa-heart-crack"></i></a>
+                    <p><a href="">Wishlist</a></p>
+                </div>
+                <div class="col-2 text-center">
+                    <a href=""><i class="fa-solid fa-user"></i></a>
+                    <p><a href="">Account</a></p>
+                </div>
+                <div class="col-2 text-center">
+                    <a href=""><i class="fa-solid fa-bars"></i></a>
+                    <p><a href="">Catagories</a></p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+</div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script src="/JS/slider.js"></script>
+<!-- <script defer src="./js/script.js"></script> -->
+<script defer src="JS/cart.js"></script>      
+</html>
